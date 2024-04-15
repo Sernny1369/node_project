@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Game of Thrones",
+    "synopsis": "A Game of Thrones takes place over the course of one year on or near the fictional continent of Westeros. The story begins when King Robert visits the northern castle Winterfell to ask Ned Stark to be his right-hand assistant, or Hand of the King. The previous Hand, Jon Arryn, died under suspicious circumstances. Robert comes with his queen, Cersei Lannister, and his retinue, which includes a number of Lannisters. Just after the royal party arrives, Ned’s wife, Catelyn, receives a message claiming that the Lannister family was responsible for the death of the former Hand. She tells Ned, who accepts the position as Hand in order to protect Robert from the Lannisters. Ned’s son Bran then discovers Cersei Lannister and her brother Jaime Lannister having sex, and Jaime pushes Bran from a window to silence him. Everyone thinks Bran simply fell while climbing around the castle. While Bran is still unconscious, Ned leaves Winterfell and rides south with Robert.",
+    "director": "Yohan KISS",
+    "year": 2011,
+    "episodes": 73,
+    "image": "/Game_of_Thrones_Men_Varys_Throne_583559_707x1024.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Chi",
+    "synopsis": "Les jeunes tentent de gagner leur vie, pendant que leurs aînés veillent depuis leur porche. Mais dans ce quartier difficile, de réels dangers menacent chaque jour de détruire des rêves, et les décisions les plus simples peuvent avoir des conséquences de vie ou de mort.",
+    "director": "Connor Daniels",
+    "year": 2001,
+    "episodes": 74,
+    "image": "./wp7300320-the-chi-wallpapers.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Breaking Bad",
+    "synopsis": "La série se concentre sur Walter White, un professeur de chimie surqualifié et père de famille, qui, ayant appris qu'il est atteint d'un cancer du poumon en phase terminale, sombre dans le crime pour assurer l'avenir financier de sa famille.",
+    "director": "Adrien REDOT",
+    "year": 2008,
+    "episodes": 62,
+    "image": "./wp12099915-4k-ultra-hd-breaking-bad-desktop-wallpapers.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Office",
+    "synopsis": "The Office, also known as The Office: An American Workplace is a 30 minute-long sitcom produced by the Deedle-Dee Productions and Reveille Productions in association with NBC. It is based on the British series of the same name that was created by Ricky Gervais and Stephen Merchant and was adapted for American audiences by producer Greg Daniels. The pilot first premiered on television on March 24, 2005.",
+    "director": "Connor Daniels",
+    "year": 2005,
+    "episodes": 201,
+    "image": "./wp5941631-the-office-us-wallpapers.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The vikings",
+    "synopsis": "Scandinavie, à la fin du 8ème siècle. Ragnar Lodbrok, un jeune guerrier viking, est avide d'aventures et de nouvelles conquêtes. Lassé des pillages sur les terres de l'Est, il se met en tête d'explorer l'Ouest par la mer.",
+    "director": "Connor WALLACE",
+    "year": 2003,
+    "episodes": 90,
+    "image": "./Vikings_(TV_series)_Men_Lagertha_Alexander_Ludwig_515969_1280x898.jpg"
+  }
+
+    
+]
+  
