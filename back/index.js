@@ -71,31 +71,48 @@ app.get('/api', (req, res) => {
 });
 
 
+
+
 // Route de la liste
 app.get('/series', (req, res) => {
-  res.json(findStudents());
+  Series.find()
+  .then(series=>res.status(201).json(series))
+  .catch(error => res.status(400).json({error }));
 });
 
 // Route pour récupérer tous les articles du panier
 // const Series = require('./Series.js')
+
+
 
 // Créer un étudiant
 const createSeries = async serieData => { 
   const serie = await Series.create(SerieData) 
   return serie}
 
-// Récupérer un étudiant
+// Récupérer une series
 const findSerie = async firstName => { 
   const serie = await Series.findOne({firstName}) 
   return serie}
   
-// Récupérer tous les étudiants
+// Récupérer tous les series
 const findSeries = async firstName => { 
   const serie = await Series.find({}) 
   return serie}
 
+app.post('/series', (req, res, next) => {
+  delete req.body._id;
+  const serie= new Series({
+    ...req.body
+  });
+  serie.save()
+  .then(()=>res.status(201).json({ message: 'enregistrer' }))
+  .catch(error => res.status(400).json({error }));
+});
 
 
+
+/*
 app.get('/series', async (req, res) => {
   try {
     const cartItems = await CartItem.find();
@@ -105,6 +122,9 @@ app.get('/series', async (req, res) => {
     res.status(500).json({ message: 'Internal server error' });
   }
 });
+*/
+
+
 
 /*
 // Route pour ajouter un article au panier
