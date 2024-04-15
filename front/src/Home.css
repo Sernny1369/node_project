@@ -1,0 +1,114 @@
+.home-container {
+  background-image: url('../public/home.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-blend-mode: multiply;
+  background-color: #4e4e4e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.home-description {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.home-button {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  color: #333;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.container {
+  width: 70%;
+  margin: 90px auto;
+}
+
+.reasons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.reason {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.reason img {
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+
+.reason h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.reason p {
+  font-size: 1rem;
+}
+
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+section p {
+  text-align: center !important;
+}
+
+.title span {
+  display: block;
+  width: 50px;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #ff4d4d;
+  margin-top: 0.5rem;
+}
+
+.partenaires {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 2rem;
+}
+
+.img img {
+  max-width: 250px;
+  height: auto;
+}
